@@ -10,9 +10,21 @@
 		E3D4C3001C3D79D500DAD1AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C2FF1C3D79D500DAD1AF /* main.m */; };
 		E3D4C3031C3D79D500DAD1AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C3021C3D79D500DAD1AF /* AppDelegate.m */; };
 		E3D4C3061C3D79D500DAD1AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C3051C3D79D500DAD1AF /* ViewController.m */; };
-		E3D4C3091C3D79D500DAD1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D4C3071C3D79D500DAD1AF /* Main.storyboard */; };
 		E3D4C30B1C3D79D500DAD1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D4C30A1C3D79D500DAD1AF /* Assets.xcassets */; };
 		E3D4C30E1C3D79D600DAD1AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D4C30C1C3D79D600DAD1AF /* LaunchScreen.storyboard */; };
+		E3D4C3161C3D7D2500DAD1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D4C3151C3D7D2500DAD1AF /* Main.storyboard */; };
+		E3D4C3211C3D7DF200DAD1AF /* LX_layoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C3191C3D7DF200DAD1AF /* LX_layoutAttributes.m */; };
+		E3D4C3221C3D7DF200DAD1AF /* UIView+AutoLayoutViews.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C31B1C3D7DF200DAD1AF /* UIView+AutoLayoutViews.m */; };
+		E3D4C3231C3D7DF200DAD1AF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C31E1C3D7DF200DAD1AF /* UIView+Extension.m */; };
+		E3D4C3241C3D7DF200DAD1AF /* WYTopicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C3201C3D7DF200DAD1AF /* WYTopicButton.m */; };
+		E3D4C32A1C3DE9EC00DAD1AF /* WYPopoverAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C3271C3DE9EC00DAD1AF /* WYPopoverAnimator.m */; };
+		E3D4C32B1C3DE9EC00DAD1AF /* WYPopoverPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C3291C3DE9EC00DAD1AF /* WYPopoverPresentationController.m */; };
+		E3D4C3331C3DEAE200DAD1AF /* WYTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C32F1C3DEAE200DAD1AF /* WYTopicCell.m */; };
+		E3D4C3341C3DEAE200DAD1AF /* WYTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C3321C3DEAE200DAD1AF /* WYTopic.m */; };
+		E3D4C33A1C3DEB1D00DAD1AF /* WYWriteStoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C3371C3DEB1D00DAD1AF /* WYWriteStoryController.m */; };
+		E3D4C33B1C3DEB1D00DAD1AF /* WYWriteTopController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C3391C3DEB1D00DAD1AF /* WYWriteTopController.m */; };
+		E3D4C33E1C3DEB2900DAD1AF /* WYTopController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4C33D1C3DEB2900DAD1AF /* WYTopController.m */; };
+		E3D4C3401C3DEC0D00DAD1AF /* story.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3D4C33F1C3DEC0D00DAD1AF /* story.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +34,33 @@
 		E3D4C3021C3D79D500DAD1AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E3D4C3041C3D79D500DAD1AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E3D4C3051C3D79D500DAD1AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E3D4C3081C3D79D500DAD1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3D4C30A1C3D79D500DAD1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3D4C30D1C3D79D600DAD1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3D4C30F1C3D79D600DAD1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D4C3151C3D7D2500DAD1AF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E3D4C3181C3D7DF200DAD1AF /* LX_layoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LX_layoutAttributes.h; sourceTree = "<group>"; };
+		E3D4C3191C3D7DF200DAD1AF /* LX_layoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LX_layoutAttributes.m; sourceTree = "<group>"; };
+		E3D4C31A1C3D7DF200DAD1AF /* UIView+AutoLayoutViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayoutViews.h"; sourceTree = "<group>"; };
+		E3D4C31B1C3D7DF200DAD1AF /* UIView+AutoLayoutViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayoutViews.m"; sourceTree = "<group>"; };
+		E3D4C31D1C3D7DF200DAD1AF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E3D4C31E1C3D7DF200DAD1AF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E3D4C31F1C3D7DF200DAD1AF /* WYTopicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTopicButton.h; sourceTree = "<group>"; };
+		E3D4C3201C3D7DF200DAD1AF /* WYTopicButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTopicButton.m; sourceTree = "<group>"; };
+		E3D4C3261C3DE9EC00DAD1AF /* WYPopoverAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPopoverAnimator.h; sourceTree = "<group>"; };
+		E3D4C3271C3DE9EC00DAD1AF /* WYPopoverAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopoverAnimator.m; sourceTree = "<group>"; };
+		E3D4C3281C3DE9EC00DAD1AF /* WYPopoverPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPopoverPresentationController.h; sourceTree = "<group>"; };
+		E3D4C3291C3DE9EC00DAD1AF /* WYPopoverPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopoverPresentationController.m; sourceTree = "<group>"; };
+		E3D4C32E1C3DEAE200DAD1AF /* WYTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTopicCell.h; sourceTree = "<group>"; };
+		E3D4C32F1C3DEAE200DAD1AF /* WYTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTopicCell.m; sourceTree = "<group>"; };
+		E3D4C3311C3DEAE200DAD1AF /* WYTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTopic.h; sourceTree = "<group>"; };
+		E3D4C3321C3DEAE200DAD1AF /* WYTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTopic.m; sourceTree = "<group>"; };
+		E3D4C3361C3DEB1D00DAD1AF /* WYWriteStoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWriteStoryController.h; sourceTree = "<group>"; };
+		E3D4C3371C3DEB1D00DAD1AF /* WYWriteStoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWriteStoryController.m; sourceTree = "<group>"; };
+		E3D4C3381C3DEB1D00DAD1AF /* WYWriteTopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWriteTopController.h; sourceTree = "<group>"; };
+		E3D4C3391C3DEB1D00DAD1AF /* WYWriteTopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWriteTopController.m; sourceTree = "<group>"; };
+		E3D4C33C1C3DEB2900DAD1AF /* WYTopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTopController.h; sourceTree = "<group>"; };
+		E3D4C33D1C3DEB2900DAD1AF /* WYTopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTopController.m; sourceTree = "<group>"; };
+		E3D4C33F1C3DEC0D00DAD1AF /* story.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = story.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +93,17 @@
 		E3D4C2FD1C3D79D500DAD1AF /* WYPopoverAnimatorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E3D4C32C1C3DEABF00DAD1AF /* AnimatorExample */,
+				E3D4C3251C3DE9EC00DAD1AF /* Animation */,
+				E3D4C3171C3D7DF200DAD1AF /* AutoLayout */,
+				E3D4C31C1C3D7DF200DAD1AF /* WYView */,
 				E3D4C3011C3D79D500DAD1AF /* AppDelegate.h */,
 				E3D4C3021C3D79D500DAD1AF /* AppDelegate.m */,
 				E3D4C3041C3D79D500DAD1AF /* ViewController.h */,
 				E3D4C3051C3D79D500DAD1AF /* ViewController.m */,
-				E3D4C3071C3D79D500DAD1AF /* Main.storyboard */,
 				E3D4C30A1C3D79D500DAD1AF /* Assets.xcassets */,
 				E3D4C30C1C3D79D600DAD1AF /* LaunchScreen.storyboard */,
+				E3D4C3151C3D7D2500DAD1AF /* Main.storyboard */,
 				E3D4C30F1C3D79D600DAD1AF /* Info.plist */,
 				E3D4C2FE1C3D79D500DAD1AF /* Supporting Files */,
 			);
@@ -74,9 +113,84 @@
 		E3D4C2FE1C3D79D500DAD1AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E3D4C33F1C3DEC0D00DAD1AF /* story.plist */,
 				E3D4C2FF1C3D79D500DAD1AF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3D4C3171C3D7DF200DAD1AF /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4C3181C3D7DF200DAD1AF /* LX_layoutAttributes.h */,
+				E3D4C3191C3D7DF200DAD1AF /* LX_layoutAttributes.m */,
+				E3D4C31A1C3D7DF200DAD1AF /* UIView+AutoLayoutViews.h */,
+				E3D4C31B1C3D7DF200DAD1AF /* UIView+AutoLayoutViews.m */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		E3D4C31C1C3D7DF200DAD1AF /* WYView */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4C31D1C3D7DF200DAD1AF /* UIView+Extension.h */,
+				E3D4C31E1C3D7DF200DAD1AF /* UIView+Extension.m */,
+				E3D4C31F1C3D7DF200DAD1AF /* WYTopicButton.h */,
+				E3D4C3201C3D7DF200DAD1AF /* WYTopicButton.m */,
+			);
+			path = WYView;
+			sourceTree = "<group>";
+		};
+		E3D4C3251C3DE9EC00DAD1AF /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4C3261C3DE9EC00DAD1AF /* WYPopoverAnimator.h */,
+				E3D4C3271C3DE9EC00DAD1AF /* WYPopoverAnimator.m */,
+				E3D4C3281C3DE9EC00DAD1AF /* WYPopoverPresentationController.h */,
+				E3D4C3291C3DE9EC00DAD1AF /* WYPopoverPresentationController.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		E3D4C32C1C3DEABF00DAD1AF /* AnimatorExample */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4C3351C3DEB1500DAD1AF /* Controller */,
+				E3D4C32D1C3DEAE200DAD1AF /* View */,
+				E3D4C3301C3DEAE200DAD1AF /* WYTopic */,
+			);
+			path = AnimatorExample;
+			sourceTree = "<group>";
+		};
+		E3D4C32D1C3DEAE200DAD1AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4C32E1C3DEAE200DAD1AF /* WYTopicCell.h */,
+				E3D4C32F1C3DEAE200DAD1AF /* WYTopicCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3D4C3301C3DEAE200DAD1AF /* WYTopic */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4C3311C3DEAE200DAD1AF /* WYTopic.h */,
+				E3D4C3321C3DEAE200DAD1AF /* WYTopic.m */,
+			);
+			path = WYTopic;
+			sourceTree = "<group>";
+		};
+		E3D4C3351C3DEB1500DAD1AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4C33C1C3DEB2900DAD1AF /* WYTopController.h */,
+				E3D4C33D1C3DEB2900DAD1AF /* WYTopController.m */,
+				E3D4C3361C3DEB1D00DAD1AF /* WYWriteStoryController.h */,
+				E3D4C3371C3DEB1D00DAD1AF /* WYWriteStoryController.m */,
+				E3D4C3381C3DEB1D00DAD1AF /* WYWriteTopController.h */,
+				E3D4C3391C3DEB1D00DAD1AF /* WYWriteTopController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +250,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3D4C3161C3D7D2500DAD1AF /* Main.storyboard in Resources */,
 				E3D4C30E1C3D79D600DAD1AF /* LaunchScreen.storyboard in Resources */,
+				E3D4C3401C3DEC0D00DAD1AF /* story.plist in Resources */,
 				E3D4C30B1C3D79D500DAD1AF /* Assets.xcassets in Resources */,
-				E3D4C3091C3D79D500DAD1AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +264,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3D4C3241C3D7DF200DAD1AF /* WYTopicButton.m in Sources */,
+				E3D4C3231C3D7DF200DAD1AF /* UIView+Extension.m in Sources */,
+				E3D4C3211C3D7DF200DAD1AF /* LX_layoutAttributes.m in Sources */,
+				E3D4C3331C3DEAE200DAD1AF /* WYTopicCell.m in Sources */,
 				E3D4C3061C3D79D500DAD1AF /* ViewController.m in Sources */,
+				E3D4C32A1C3DE9EC00DAD1AF /* WYPopoverAnimator.m in Sources */,
 				E3D4C3031C3D79D500DAD1AF /* AppDelegate.m in Sources */,
+				E3D4C33A1C3DEB1D00DAD1AF /* WYWriteStoryController.m in Sources */,
+				E3D4C32B1C3DE9EC00DAD1AF /* WYPopoverPresentationController.m in Sources */,
+				E3D4C33E1C3DEB2900DAD1AF /* WYTopController.m in Sources */,
+				E3D4C3341C3DEAE200DAD1AF /* WYTopic.m in Sources */,
 				E3D4C3001C3D79D500DAD1AF /* main.m in Sources */,
+				E3D4C3221C3D7DF200DAD1AF /* UIView+AutoLayoutViews.m in Sources */,
+				E3D4C33B1C3DEB1D00DAD1AF /* WYWriteTopController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E3D4C3071C3D79D500DAD1AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3D4C3081C3D79D500DAD1AF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E3D4C30C1C3D79D600DAD1AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,6 +416,7 @@
 				E3D4C3141C3D79D600DAD1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
