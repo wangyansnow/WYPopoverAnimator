@@ -41,7 +41,12 @@
     /// modal出一个新的控制器
     WYTopController *topVC = [[WYTopController alloc] init];
     topVC.transitioningDelegate = self.popAnimator;
+    // 设置弹出控制器的大小
     self.popAnimator.presentFrame = CGRectMake(100, 56, 200, 300);
+    // 设置遮罩背景颜色
+    self.popAnimator.dummyColor = [UIColor colorWithWhite:0.5 alpha:0.7];
+    // 设置动画的类型
+    self.popAnimator.type = WYPopoverAnimatorTypeDown;
     // 设置modal的展示样式
     topVC.modalPresentationStyle = UIModalPresentationCustom;
     

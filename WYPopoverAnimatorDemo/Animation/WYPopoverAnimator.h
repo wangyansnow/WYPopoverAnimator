@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 typedef enum {
-    WYPopoverAnimatorTypeDown,
-    WYPopoverAnimatorTypeBounds,
-    WYPopoverAnimatorTypeFateIn // 淡入淡出
+    WYPopoverAnimatorTypeDown,   // 由上往下
+    WYPopoverAnimatorTypeBounds, // 从中间开始逐渐变到屏幕大小
+    WYPopoverAnimatorTypeFateIn  // 淡入淡出
 }WYPopoverAnimatorType;
 
 @interface WYPopoverAnimator : NSObject <UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning>
