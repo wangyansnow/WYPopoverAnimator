@@ -54,3 +54,5 @@ typedef enum {
 /// modal出动画的类型
 @property (nonatomic, assign) WYPopoverAnimatorType type;
 ```
+## 动画效果
+![image](https://raw.githubusercontent.com/wangyansnow/WYPopoverAnimator/master/snapshot/animation.gif)
